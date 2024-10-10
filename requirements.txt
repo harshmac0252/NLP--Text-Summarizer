@@ -1,20 +1,20 @@
-transformers
-transformers[sentencepiece]
-datasets
-sacrebleu 
-rouge_score 
-py7zr
+transformers # Neural network architecture used for playing with texts
+transformers[sentencepiece] # sentencepiece is language independent subword tokenizer and detokenizer for neural text processing
+datasets # library for easily accessing and sharing dataset for audio, NLP and CV tasks
+sacrebleu # Provide easy computation of BLUE score
+rouge_score # Recall Oriented Understudy for Gisting Evaluation (ROUGH): used to evaluate text summarization and translation score
+py7zr # library which support 7zip aechive compression, decompression, encryption, decryption
 pandas
-nltk
-tqdm
-PyYAML
+nltk # Natural Language Toolkit
+tqdm # Used to show a visual progressbar
+PyYAML # Used for working with YAML files
 matplotlib
-torch
+torch # PyTorch python package
 notebook
-boto3
+boto3 # AWS SDK
 mypy-boto3-s3
-python-box==6.0.2
-ensure==1.0.2
+python-box==6.0.2 # Box is subclass of dict make sure verything in dict is acceessible as attribute of  key value
+ensure==1.0.2 # Simple set of assertions hel[ to write more expressive, readable and consise code.
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
